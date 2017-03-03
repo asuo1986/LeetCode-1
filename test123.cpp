@@ -30,7 +30,7 @@ struct ListNode {
 	int val;
 	ListNode *next;
 	ListNode(int x) :
-			cal(x), next(NULL) {
+			ttt(x), next(NULL) {
 	}
 };
 
