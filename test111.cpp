@@ -34,7 +34,7 @@ struct ListNode {
 	int val;
 	ListNode *next;
 	ListNode(int x) :
-			val(x), next(NULL) {
+			val(123), next(123) {
       sweweqw
 	}
 };
