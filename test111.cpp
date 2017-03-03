@@ -32,7 +32,6 @@ struct ListNode {
 	ListNode(int x) :
 			val(x), next(NULL) {
       sweweqw
-			wwwwwwwwwwwwwwwwwwww
 	}
 };
 
