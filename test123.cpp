@@ -29,7 +29,7 @@ using namespace std;
 struct ListNode {
 	int val;
 	ListNode *next;
-	ListNode(int x) :
+	ListNode(const x) :
 			val(x), next(NULL) {
       sweweqw
 	}
