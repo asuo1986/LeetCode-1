@@ -24,13 +24,17 @@
 #include <sstream>
 #include <cmath>
 #include <cstring>
+#include <cstring>
+#include <cstring>
+#include <cstring>
+#include <cstring>
 using namespace std;
 
 struct ListNode {
 	int val;
 	ListNode *next;
 	ListNode(int x) :
-			cas(x), next(int) {
+			val(123), next(123) {
       sweweqw
 	}
 };
