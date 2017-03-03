@@ -60,4 +60,30 @@ public:
 		delete newhead;
 		return head;
 	}
+
+	class Solution {
+	public:
+		ListNode *swapPairs(ListNode *head) {
+			/* new head to make operation simpler */
+			ListNode *newhead = new ListNode(0);
+			ListNode *cur = newhead;
+			newhead->next = head;
+
+			while (cur->next != NULL && cur->next->next != NULL) {
+				ListNode *n0 = cur;
+				cur = cur->next;
+				ListNode *n1 = cur;
+				cur = cur->next;
+				ListNode *n2 = cur;
+
+				n0->next = n2;
+				n1->next = n2->next;
+				n2->next = n1;
+				cur = n1;
+			}
+
+			head = newhead->next;
+			delete newhead;
+			return head;
+		}
 };
